@@ -10,28 +10,18 @@ As a student passionate about technology and personal finance, I wanted to creat
 
 ## ✨ Key Features
 
-### 💰 Financial Management
-- **Income & Expense Tracking**: Log and categorize all financial transactions
-- **Budget Categories**: Set spending limits for different categories
-- **Real-time Analytics**: Visual charts and insights into spending patterns
-- **Financial Goals**: Set and track savings goals
-
-### 🔐 Security & Privacy
-- **User Authentication**: Secure login and registration system
-- **Passcode Protection**: Additional security layer for sensitive financial data
+- **Income & Expense Tracking**: Log and categorize financial transactions
+- **Budget Management**: Set spending limits for different categories
+- **Interactive Analytics**: Visual charts and spending insights using MPAndroidChart
+- **User Authentication**: Secure login with passcode protection
 - **Encrypted Data Storage**: All financial data stored securely on device
-
-### 📊 Dashboard & Analytics
-- **Interactive Charts**: Visual representation of spending patterns using MPAndroidChart
-- **Monthly Reports**: Comprehensive financial summaries
-- **Category-wise Analysis**: Detailed breakdown of expenses by category
 
 ## 🛠️ Technologies & Tools Used
 
 ### Core Technologies
 - **Kotlin**: Primary programming language
 - **Android SDK**: Native Android development
-- **ViewBinding & DataBinding**: Modern UI binding approach
+- **ViewBinding**: Modern UI binding approach
 - **SharedPreferences**: Local data persistence with JSON serialization
 - **Gson**: JSON serialization for data storage
 
@@ -65,36 +55,28 @@ As a student passionate about technology and personal finance, I wanted to creat
 
 ## 🎓 What I Learned
 
-This project was an incredible learning experience that taught me:
-
 ### Technical Skills
-- **Android Development Fundamentals**: Understanding the Android lifecycle, activities, fragments, and services
-- **Modern Android Architecture**: Implementing MVVM pattern with proper separation of concerns
-- **Data Persistence**: Creating efficient data models using SharedPreferences and JSON serialization
-- **UI/UX Design**: Building intuitive interfaces using Material Design 3 and custom layouts
-- **State Management**: Handling complex UI states with ViewModels and LiveData
+- **Android Development**: Lifecycle, activities, fragments, and MVVM architecture
+- **Data Persistence**: SharedPreferences and JSON serialization with Gson
+- **UI/UX Design**: Material Design 3 and custom layouts
+- **State Management**: ViewModels and LiveData for reactive UI
 
 ### Development Practices
-- **Version Control**: Managing code changes and collaboration using Git
-- **Code Organization**: Writing clean, maintainable, and scalable code
-- **Debugging**: Troubleshooting issues and optimizing app performance
-- **Documentation**: Writing clear code comments and project documentation
+- **Version Control**: Git and GitHub for collaboration
+- **Code Organization**: Clean, maintainable, and scalable code
+- **Debugging**: Troubleshooting and performance optimization
 
 ## 🔮 Future Enhancements
 
-As I continue to grow as a developer, I plan to enhance BudgetPal with:
-
 ### Advanced Features
 - **Cloud Synchronization**: Sync data across multiple devices
-- **Expense Receipt Scanning**: OCR technology to automatically extract transaction details
+- **Expense Receipt Scanning**: OCR technology for automatic transaction extraction
 - **Bill Reminders**: Smart notifications for upcoming payments
-- **Investment Tracking**: Monitor stocks, crypto, and other investments
 
 ### Technical Improvements
-- **Unit Testing**: Comprehensive test coverage for all components
+- **Unit Testing**: Comprehensive test coverage
 - **CI/CD Pipeline**: Automated testing and deployment
-- **Performance Optimization**: Faster app startup and smoother animations
-- **Accessibility**: Support for screen readers and assistive technologies
+- **Performance Optimization**: Faster startup and smoother animations
 
 ---
 
