@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Welcome Screen -->
+    <string name="app_name">Budget_Pal</string>
+    <string name="app_logo">BudgetPal App Logo\n</string>
+    <string name="budgetpal">BudgetPal</string>
+    <string name="get_started">Get Started</string>
+    <!-- Log in Screen -->
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="login">LOGIN</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <!-- Sign up Screen -->
+    <string name="create_account">Create Account</string>
+    <string name="join_us">Join us to start managing your finances</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="already_have_an_account">Already have an account? Login</string>
+    <string name="transactions">Transactions</string>
+    <string name="track_save_grow">TRACK | SAVE | GROW</string>
+    <!-- Dashboard Screen -->
+    <string name="total_balance">Total Balance</string>
+    <string name="total_income">Total Income</string>
+    <string name="total_expense">Total Expense</string>
+    <!-- Transactions Screen -->
+    <string name="delete_transaction">delete_transaction</string>
+    <string name="no_transactions">No transactions</string>
+    <string name="hint_title">Title</string>
+    <!-- Add Transaction Screen -->
+    <string name="add_transaction">Add Transaction</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="hint_category">Choose Category</string>
+    <string name="type_expense">Expense</string>
+    <string name="type_income">Income</string>
+    <string name="hint_type">Transaction Type</string>
+    <!-- Edit Transaction Screen -->
+    <string name="edit_transaction">Edit Transaction</string>
+    <!-- Budget Screen -->
+    <string name="hint_monthly_budget">Monthly Budget</string>
+    <string name="hint_amount">Amount</string>
+    <string name="budget_progress">Budget Progress</string>
+    <string name="budget_management">Budget Management</string>
+    <string name="budget_management_description">Set and manage budgets for different spending categories</string>
+    <string name="manage_category_budgets">Manage Category Budgets</string>
+    <string name="budget_vs_expenses">Budget vs Expenses</string>
+    <!-- Category Budget Screen -->
+    <string name="back">Back</string>
+    <string name="category_budgets">Category Budgets</string>
+    <string name="budget_overview">Budget Overview</string>
+    <string name="budget_overview_description">Track your spending and stay within budget</string>
+    <string name="category_setbudget_description">Set budgets for your expense categories:</string>
+    <string name="budget_amount">Budget Amount</string>
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="hint_currency">Select Currency</string>
+    <string name="settings_currency">Currency</string>
+    <string name="restore">Restore Data</string>
+    <string name="settings_restore">Backup Data</string>
+    <string name="backup">Backup</string>
+    <string name="settings_backup">Backup Data</string>
+    <string name="backup_description">Secure your data by creating a backup</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="enable_dark_mode">Enable Dark Mode</string>
+    <string name="account">Account</string>
+    <string name="logout">Logout</string>
+    <!-- Currency types -->
+    <string name="currency_usd">USD ($)</string>
+    <string name="currency_eur">EUR (€)</string>
+    <string name="currency_gbp">GBP (£)</string>
+    <string name="currency_jpy">JPY (¥)</string>
+    <string name="currency_inr">INR (₹)</string>
+    <string name="currency_aud">AUD (A$)</string>
+    <string name="currency_cad">CAD (C$)</string>
+    <string name="currency_lkr">LKR (රු)</string>
+    <string name="currency_cny">CNY (¥)</string>
+    <string name="currency_sgd">SGD (S$)</string>
+    <string name="currency_myr">MYR (RM)</string>
+    <string name="currency_thb">THB (฿)</string>
+    <string name="currency_idr">IDR (Rp)</string>
+    <string name="currency_php">PHP (₱)</string>
+    <string name="currency_vnd">VND (₫)</string>
+    <string name="currency_krw">KRW (₩)</string>
+    <string name="currency_aed">AED (د.إ)</string>
+    <string name="currency_sar">SAR (﷼)</string>
+    <string name="currency_qar">QAR (﷼)</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+

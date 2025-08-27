@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- All categories for transactions -->
+    <string-array name="transaction_categories">
+        <item>Groceries</item>
+        <item>Transportation</item>
+        <item>Housing &amp; Rent</item>
+        <item>Utilities</item>
+        <item>Entertainment</item>
+        <item>Shopping</item>
+        <item>Healthcare &amp; Insurance</item>
+        <item>Education &amp; Tuition</item>
+        <item>Gifts &amp; Donations</item>
+        <item>Miscellaneous</item>
+        <item>Salary &amp; Wages</item>
+        <item>Investments &amp; Dividends</item>
+        <item>Business Income</item>
+        <item>Gifts &amp; Inheritance</item>
+        <item>Other Income</item>
+    </string-array>
+
+    <!-- Expense-specific categories -->
+    <string-array name="expense_categories">
+        <item>Groceries</item>
+        <item>Transportation</item>
+        <item>Housing &amp; Rent</item>
+        <item>Utilities</item>
+        <item>Entertainment</item>
+        <item>Shopping</item>
+        <item>Healthcare &amp; Insurance</item>
+        <item>Education &amp; Tuition</item>
+        <item>Gifts &amp; Donations</item>
+        <item>Miscellaneous</item>
+    </string-array>
+
+    <!-- Income-specific categories -->
+    <string-array name="income_categories">
+        <item>Salary &amp; Wages</item>
+        <item>Investments &amp; Dividends</item>
+        <item>Business Income</item>
+        <item>Gifts &amp; Inheritance</item>
+        <item>Other Income</item>
+    </string-array>
+</resources>

@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BudgetPal" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryContainer">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryContainer">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnBackground">@color/onBackground</item>
+        <item name="colorOnSurface">@color/onSurface</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">?attr/colorPrimaryContainer</item>
+
+        <!-- Text appearances -->
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Material3.HeadlineMedium</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Material3.TitleLarge</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Material3.BodyLarge</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Material3.BodyMedium</item>
+    </style>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.budgetpal.budgetpal.ui.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/activity_dashboard_fragment"/>
+
+    <fragment
+        android:id="@+id/navigation_transactions"
+        android:name="com.example.budgetpal.budgetpal.ui.transactions.TransactionsFragment"
+        android:label="Transactions"
+        tools:layout="@layout/activity_transactions_fragment">
+
+        <action
+            android:id="@+id/action_navigation_transactions_to_addTransactionFragment"
+            app:destination="@id/addTransactionFragment" />
+
+        <action
+            android:id="@+id/action_navigation_transactions_to_editTransactionFragment"
+            app:destination="@id/editTransactionFragment">
+
+
+        </action>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_budget"
+        android:name="com.example.budgetpal.budgetpal.ui.budget.BudgetFragment"
+        android:label="Budget"
+        tools:layout="@layout/activity_budget_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.budgetpal.budgetpal.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/activity_settings_fragment" />
+
+    <fragment
+        android:id="@+id/addTransactionFragment"
+        android:name="com.example.budgetpal.budgetpal.ui.transaction.AddTransactionFragment"
+        android:label="Add Transaction"
+        tools:layout="@layout/activity_add_transaction_fragment" />
+
+    <fragment
+        android:id="@+id/editTransactionFragment"
+        android:name="com.example.budgetpal.budgetpal.ui.transaction.EditTransactionFragment"
+        android:label="Edit Transaction"
+        tools:layout="@layout/activity_edit_transaction_fragment">
+        <argument
+            android:name="transaction"
+            app:argType="com.example.budgetpal.budgetpal.data.Transaction"
+            app:nullable="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/categoryBudgetFragment"
+        android:name="com.example.budgetpal.budgetpal.ui.budget.CategoryBudgetFragment"
+        android:label="Category Budgets"
+        tools:layout="@layout/fragment_category_budget" />
+
+</navigation>
