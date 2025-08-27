@@ -62,7 +62,6 @@ As a student passionate about technology and personal finance, I wanted to creat
 - **State Management**: ViewModels and LiveData for reactive UI
 
 ### Development Practices
-- **Version Control**: Git and GitHub for collaboration
 - **Code Organization**: Clean, maintainable, and scalable code
 - **Debugging**: Troubleshooting and performance optimization
 
